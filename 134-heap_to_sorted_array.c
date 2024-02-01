@@ -24,10 +24,10 @@ size_t tree_size(const binary_tree_t *tree)
 }
 
 /**
- * heap_to_sorted_array - function to conv 
+ * heap_to_sorted_array - function to conv
  * to a sorted array of integers
  *
- * @heap: node heap entry point 
+ * @heap: node heap entry point
  * @size: point to the array size
  *
  * Return: Point to the sorted array desc
