@@ -38,7 +38,7 @@ void create_tree(avl_t **node, int *array, size_t size, int mode)
  *
  * @array: the input in array
  * @size: smthe size of the array
- * Return: entry point of result 
+ * Return: entry point of result
  */
 avl_t *sorted_array_to_avl(int *array, size_t size)
 {
