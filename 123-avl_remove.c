@@ -2,7 +2,7 @@
 
 /**
  * bal - compute Avl Bal fact
- * @tree: the tree 
+ * @tree: the tree
  * Return: comp BF
  */
 void bal(avl_t **tree)
@@ -121,8 +121,8 @@ bst_t *bst_remove(bst_t *root, int value)
 /**
  * avl_remove - in Avl mode to remove
  * @root: entry point of the tree
- * @value: the val to remove 
- * Return: changed tree 
+ * @value: the val to remove
+ * Return: changed tree
  */
 avl_t *avl_remove(avl_t *root, int value)
 {
