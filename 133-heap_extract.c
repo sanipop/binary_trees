@@ -26,10 +26,10 @@ size_t tree_height(const heap_t *tree)
 	return (height_r);
 }
 /**
- * tree_size_h -Add tree height 
+ * tree_size_h -Add tree height
  * @tree: entry point of the node to add
  *
- * Return: sum height, null for error 
+ * Return: sum height, null for error
  */
 size_t tree_size_h(const binary_tree_t *tree)
 {
@@ -50,7 +50,7 @@ size_t tree_size_h(const binary_tree_t *tree)
 
 /**
  * _preorder - it rate using this algo
- * @tree: node tree entry point 
+ * @tree: node tree entry point
  * @node: end point of node
  * @height: tree height
  *
