@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_insert_left - place node at left
- * 
+ *
  * @parent: Addr to the ref node.
  * @value: The value to store in the new node.
  *
