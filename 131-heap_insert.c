@@ -3,7 +3,7 @@
 /**
  * heap_insert - put max at this algo
  * @root: node root with double pointer
- * @value: the val to be inserted 
+ * @value: the val to be inserted
  *
  * Return: the val of created pointer
  *         NULL on failure
@@ -27,7 +27,7 @@ heap_t *heap_insert(heap_t **root, int value)
 	for (bit = 1 << (level - 1); bit != 1; bit >>= 1)
 		tree = leaves & bit ? tree->right : tree->left;
 	/*
-	 * move to tree first spot 
+	 * move to tree first spot
 	 * the number of tree equiv.
 	 * given-
 	 * with 12 nodes in100% tree, with 5 leaves on
